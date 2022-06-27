@@ -1,6 +1,5 @@
 import React from "react";
-// import ModifyWrite from "../../assets/icon-modify-white.svg";
-// import LogOut from "../../assets/icon-modify-white.svg";
+
 import "./login.css";
 
 function Login() {

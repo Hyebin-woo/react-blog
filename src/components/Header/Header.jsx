@@ -1,10 +1,10 @@
 import React from "react";
 import "./header.css";
-import Login from "./Login";
-import Logout from "./Logout";
+// import Login from "./Login";
+// import Logout from "./Logout";
 import { ReactComponent as Logo } from "../../assets/Logo.svg";
 import { ReactComponent as WriteBtn } from "../../assets/icon-modify-white.svg";
-import { ReactComponent as LogoutBtn } from "../../assets/icon-modify-white.svg";
+import { ReactComponent as LogoutBtn } from "../../assets/icon-logout.svg";
 
 function Header() {
   return (
@@ -25,13 +25,13 @@ function Header() {
             </a>
           </li>
           <li>
-            <a href="#" class="button">
+            <a href="#" className="button">
               <WriteBtn />
               <span>Write</span>
             </a>
           </li>
           <li>
-            <a href="#" class="button">
+            <a href="#" className="button white">
               <LogoutBtn />
               <span>Logout</span>
             </a>
